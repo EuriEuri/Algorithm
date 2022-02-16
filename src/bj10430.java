@@ -7,13 +7,10 @@ public class bj10430 {
         B = sc.nextInt();
         C = sc.nextInt();
         if ((A >= 2 && A <= 10000) && (B >= 2 && B <= 10000) && (C >= 2 && C <= 10000)) {
-
                     System.out.println((A + B) % C);
                     System.out.println(((A % C) + (B % C)) % C);
                     System.out.println((A * B) % C);
                     System.out.println(((A % C) * (B % C)) % C);
-
-
         } else return;
     }
 }
